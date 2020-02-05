@@ -1,0 +1,262 @@
+html:root{
+    --dark: #1d1d1d;
+    --white: #ffffff;
+    --grey-light: #f5f5f5;
+    --cyan: rgb(16,201,195);
+    --grey-dark: rgb(59,65,72);
+    --lighter-grey: rgb(248,249,249);
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500|Nunito+Sans&display=swap");
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.font{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.p-90{
+    padding: 90px 0;
+}
+.row {
+    margin: 0;
+}
+.f-size{
+    font-size: 12px;
+}
+/* header */
+
+
+
+.bg-img {
+    min-height: 550px;
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.navbar-light .navbar-nav .nav-link.active{
+    color: var(--cyan)
+}
+
+.navbar-collapse{
+    text-align: center;
+}
+
+
+.col-5{
+    padding-left: 73px;
+}
+
+.btn{
+    border-radius: 0;
+    padding: 15px;
+}
+.btn-primary{
+    background-color: var(--cyan);
+    border-color: var(--cyan);
+}
+.btn-primary:hover{
+    background-color:var(--cyan);
+    border-color: var(--cyan);
+}
+.btn-primary:not(:disabled):not(.disabled):active{
+    background-color: var(--cyan);
+    border-color: var(--cyan);
+}
+.btn-primary:focus{
+    box-shadow: 0 0 0 0.2rem rgba(16, 201, 195, 0.50);
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus{
+    box-shadow: 0 0 0 0.2rem rgba(16, 201, 195, 0.50);
+}
+
+.m-height{
+    height: 443.5px;
+    max-height: 443.5px;
+}
+
+
+
+
+
+/*debut About*/
+.mb-lg-2, .my-lg-2 {
+    margin-bottom: 1.5rem!important;
+}
+.mt-lg-2, .my-lg-2 {
+    margin-top: 1.5rem!important;
+}
+.w-50 {
+    width: 53%!important;
+}
+/*fin About*/
+
+
+/* skill */
+
+
+
+.bg-lighter-grey{
+    background-color: var(--lighter-grey);
+}
+
+.bg-skill{
+    width: 100%;
+    height: 500px;
+    background-image: url(http://picsum.photos/465/285);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.progress{ 
+    height: 0.2rem;
+}
+
+
+
+
+/* section number */
+
+.bg-cyan{
+    background-color: var(--cyan);
+    color: var(--white);
+}
+
+.l-height{
+    line-height: 1.2;
+}
+
+/* section work */
+
+.portfolio-box-photo{
+    height: auto;
+    height: 300px;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode:luminosity;
+}
+.portfolio-box-photo::before{
+    content: url(../media/yeux.png);
+    width: 100%;
+    background-color: var(--grey-dark);
+    color: var(--white);
+    text-align: center;
+    font-size: 2em;
+    display: none;
+    line-height: 300px;
+    cursor: pointer;
+}
+.portfolio-box-photo:hover::before{
+    display: block;
+
+}   
+.portfolio-box-photo-bg1{
+    background-image:url(http://picsum.photos/465/285);
+
+}
+
+.color-darker-white{
+    background-color: rgb(245,245 ,245);
+    
+}
+.btn:focus{
+    box-shadow: none;
+}
+.btn:not(:disabled):not(.disabled):active:focus{
+    box-shadow: none;
+}
+
+/*section work fin*/
+
+/* section work process */
+.w-50 {
+    width: 45%!important;
+}
+.mb-lg-2, .my-lg-2 {
+    margin-bottom: 3rem!important;
+}
+/* section work process fin */
+.bg-gris{
+    background-color: var(--grey-light);
+    color: var(--dark);
+}
+.formulaire {
+    padding: 20px 30px 20px 30px;
+    }
+    
+    .formulaire label {
+    display: block;
+    margin: 0px 0px 5px;
+    font-size: 19px;
+    color: black;
+    }
+    
+    .formulaire input,
+    .formulaire textarea {
+    border: none;
+    color: #525252;
+    height: 40px;
+    line-height: 15px;
+    margin-bottom: 16px;
+    margin-right: 35px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 5px 0px 5px 5px;
+    width: 97%;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    }
+    
+    .formulaire textarea {
+    height: 200px;
+    color: #525252;
+    }
+    
+    
+    .formulaire input[type='submit'] {
+    background: #333;
+    border: none;
+    color: #FFF;
+    }
+    
+    .formulaire input[type='submit']:hover {
+    color: #333333;
+    background-color: #FFF;
+    }
+    a:not([href]):not([tabindex]) {
+        text-decoration: none;
+    }
+.carousel-indicators li{
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    border: 2px solid transparent;
+}
+.carousel-indicators li.active{
+    border: 2px solid var(--white);
+}
+.bg-dark{
+    background-color: var(--dark);
+    color: var(--white);
+}
+ul li{
+    list-style-type: none;
+}
+.btn-1 {
+    border-radius: 0;
+    padding: 10px;
+    width: 183px;
+}
+
+
+
+
+@media (max-width:767.98px){
+    .bg-skill{
+        display: none;
+    }
+}
